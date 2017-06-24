@@ -118,3 +118,7 @@
     background-color: transparent;
     text-align: center;
 }
+
+body {
+    padding-top: 75px;
+}
