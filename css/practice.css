@@ -5,9 +5,21 @@
     color: white;
 }
 
-img {
-    border: 10px solid #34495e;
-}
 * {
     font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+
+.about {
+    background-color: rgba(241, 196, 15,1.0);
+    padding-top: 2.5%;
+    padding-bottom: 5%;
+}
+
+.labels {
+    text-align: right;
+}
+
+.titles {
+    padding-bottom: 2.5%;
 }
