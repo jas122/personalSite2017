@@ -37,6 +37,18 @@
     position: relative;
 }
 
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.profile {
+    background: rgba(46, 204, 113,1.0);
+}
+
+.about {
+    background: rgba(52, 152, 219,1.0);
+}
+
 .hovereffect h2 {
     text-transform: uppercase;
     color: #fff;
@@ -45,9 +57,9 @@
     font-size: 17px;
     padding: 10px;
     background: rgba(0, 0, 0, 0.6);
-    -webkit-transform: translateY(45px);
-    -ms-transform: translateY(45px);
-    transform: translateY(45px);
+    -webkit-transform: translateY(140px);
+    -ms-transform: translateY(140px);
+    transform: translateY(140px);
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
 }
@@ -57,25 +69,6 @@
     -ms-transform: translateY(5px);
     transform: translateY(5px);
     margin:0px;
-}
-
-.hovereffect p.info {
-    display: inline-block;
-    text-decoration: none;
-    padding: 7px 14px;
-    text-transform: uppercase;
-    color: #fff;
-    border: 1px solid #fff;
-    background-color: transparent;
-    opacity: 0;
-    filter: alpha(opacity=0);
-    -webkit-transform: scale(0);
-    -ms-transform: scale(0);
-    transform: scale(0);
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-    font-weight: normal;
-    margin: 7px;
 }
 
 .hovereffect:hover p.info {
@@ -88,4 +81,22 @@
 
 .hovereffect p.info:hover {
     box-shadow: 0 0 5px #fff;
+}
+.hovereffect p.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    text-transform: uppercase;
+    color: #7f8c8d;
+    border: 1px solid #fff;
+    background-color: rgba(256,256,256,.9);
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    font-weight: normal;
+    margin: 7px;
 }
