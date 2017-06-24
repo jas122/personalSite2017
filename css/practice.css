@@ -1,0 +1,13 @@
+.avatar {
+    background-color: rgba(44, 62, 80,1.0);
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: white;
+}
+
+img {
+    border: 10px solid #34495e;
+}
+* {
+    font-family: 'Titillium Web', sans-serif;
+}
